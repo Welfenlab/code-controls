@@ -1,0 +1,33 @@
+{
+  "name": "@more-markdown/code-controls",
+  "version": "0.1.0",
+  "description": "Enables controls for code environments",
+  "main": "lib/code_controls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "coffeeify": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-util": "^3.0.6",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "keywords": [
+    "Markdown",
+    "Code",
+    "Environment"
+  ],
+  "repository": "github:Welfenlab/code-controls",
+  "contributors" : [
+    "Maximilian Klein <dasmaxl@gmail.com> (https://github.com/LittleHelicase)",
+    "Maik Marschner (https://github.com/leMaik)",
+    "Tim Ebbeke (https://github.com/5cript)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "node-uuid": "^1.4.3"
+  }
+}
