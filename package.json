@@ -1,6 +1,6 @@
 {
   "name": "@more-markdown/code-controls",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enables controls for code environments",
   "main": "lib/code_controls.js",
   "scripts": {
