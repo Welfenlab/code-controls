@@ -16,10 +16,14 @@ module.exports = (lang, runner, template) ->
 
         postProcessors.registerElemenbById id, (elem, done) ->
           try
-            (elem.querySelector '.play').onclick = () ->
-              runner.run code
-            (elem.querySelector '.debug').onclick = () ->
-              runner.debug code
+            playButton = elem.querySelector '.play'
+            if playButton
+              playButton.onclick = -> runner.run code
+
+            debugButton = elem.querySelector '.debug'
+            if debugButton
+              debugButton.onclick = -> runner.debug code
+
           # add error handler
           catch e
             console.warn e
