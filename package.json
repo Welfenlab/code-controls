@@ -1,11 +1,11 @@
 {
   "name": "@more-markdown/code-controls",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Enables controls for code environments",
   "main": "lib/code_controls.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "prepublish" : "node node_modules/gulp/bin/gulp.js"
+    "prepublish": "node node_modules/gulp/bin/gulp.js"
   },
   "devDependencies": {
     "babelify": "^6.1.3",
@@ -22,7 +22,7 @@
     "Environment"
   ],
   "repository": "github:Welfenlab/code-controls",
-  "contributors" : [
+  "contributors": [
     "Maximilian Klein <dasmaxl@gmail.com> (https://github.com/LittleHelicase)",
     "Maik Marschner (https://github.com/leMaik)",
     "Tim Ebbeke (https://github.com/5cript)"
